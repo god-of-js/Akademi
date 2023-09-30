@@ -1,11 +1,12 @@
 <div class="flex h-screen">
-  <div class="w-3/5 relative h-full p-2 bg-purple-50 bg-cover bg-no-repeat" style="background-image: url('/assets/graduation-caps.jpeg');">
+  <div class="w-3/5 relative h-full filter grayscale p-2 bg-purple-50 bg-cover bg-no-repeat" style="background-image: url('/assets/plenty-children.jpeg');">
     <div class="absolute inset-0 bg-gradient-to-t from-black opacity-90"></div>
   </div>
-  <div class="text-gray-500 w-2/5">
-    <div class="flex items-center gap-4">
+  <div class="w-2/5 px-16 py-12">
+    <div class="flex items-center mb-12 gap-2">
       <img src="assets/Logo.svg" alt="school logo">
-      <span class="">School</span>
+      <span class="text-lg text-gray-500 font-bold">School</span>
     </div>
+    <router-outlet></router-outlet>
   </div>
 </div>
