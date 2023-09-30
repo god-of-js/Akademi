@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AuthLayout } from './layout/auth/auth-layout.component';
-import { LoginPage } from './pages/auth/registration/login-page.component';
+import { AuthLayoutComponent } from './layout/auth/auth-layout.component';
+import { LoginPageComponent } from './pages/auth/login/login-page.component';
 
 const routes: Routes = [
-  { path: 'auth', component: AuthLayout,
+  { path: 'auth', component: AuthLayoutComponent,
   children: [
-    { path: 'login', component: LoginPage }
+    { path: 'login', component: LoginPageComponent }
     ]}
 ];
 

@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'auth-layout',
+  selector: 'app-auth-layout',
   templateUrl: './auth-layout.component.html',
 })
-export class AuthLayout {
+export class AuthLayoutComponent {
 }

@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'ui-button',
+  selector: 'app-ui-button',
   templateUrl: './ui-button.component.html',
 })
 export class UiButtonComponent {
